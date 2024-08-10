@@ -21,6 +21,10 @@ body{
     padding-right: 20px;
 }
 /* shared style */
+
+
+
+/* START HEADER STYLES */
 .header{
     max-width: 1440px;
     margin: 0 auto;
@@ -99,6 +103,9 @@ body{
     font-weight: 400;
     color: #FFF;
 }
+.header-btn{
+    gap: 14px;
+}
 .btn-main{
     font-size: 1.25rem;
     font-weight: 600;
@@ -121,6 +128,60 @@ body{
     cursor: pointer;
     outline: none;
 }
+.float{
+    position: relative;
+}
+.btn-1-txt h4{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FFF;
+}
+.btn-1{
+    position: absolute;
+    margin: 0 auto;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 23px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    max-width: 206px;
+    border-radius: 12px;
+    top: -200px;
+    right: 400px;
+}
+.btn-1 i{
+    font-size: 1.5rem;
+}
+.btn-1-txt p{
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+.btn-2{
+    position: absolute;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 23px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    max-width: 206px;
+    border-radius: 12px;
+    top: -460px;
+    right: 80px;
+}
+.btn-2 h4{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FFF;
+}
+.btn-2 p{
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+
+
+/* END HEADER STYLES */
 
 footer h1{
     font-size: 5rem;
@@ -128,7 +189,7 @@ footer h1{
 }
 
 
-
+/* SMALL DEVICE RESPONSIVE MEDIA */
 @media screen and (max-width: 576px) {
     .nav-links{
         display: none;
@@ -159,5 +220,39 @@ footer h1{
         padding: 10px 20px;
         align-items: center;
         justify-content: center;
+    }
+    .hero-img img{
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .btn-1{
+        white-space: nowrap;
+        right: 180px;
+        width: 40%;
+        padding: 15px 10px;
+    }
+    .btn-1 i{
+        font-size: 85%;
+    }
+    .btn-1-txt h4{
+        font-size: 85%;
+    }
+    .btn-1-txt p{
+        font-size: 75%;
+    }
+    .btn-2{
+        white-space: nowrap;
+        width: 35%;
+        padding: 15px 10px;
+        top: -360px;
+        right: 20px;
+    }
+    .btn-2 h4{
+        font-size: 85%;
+    }
+    .btn-2 p{
+        font-size: 65%;
     }
 }
