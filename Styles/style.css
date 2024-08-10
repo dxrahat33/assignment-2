@@ -286,6 +286,19 @@ body{
 /* END RUN SECTION */
 
 
+/* START CALCULATOR */
+.calc-title{
+    width: 100%;
+    max-width: 671px;
+    margin: 88px auto;
+    flex-direction: column;
+    gap: 14px;
+}
+/* END CALCULATOR */
+
+
+
+
 
 
 .hide{
@@ -403,5 +416,9 @@ footer h1{
         align-items: center;
         white-space: nowrap ;
         margin: 0 33px 31px;
+    }
+    .calc-title{
+        width: 90%;
+        margin: 30px 20px;
     }
 }
