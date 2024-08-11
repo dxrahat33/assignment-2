@@ -543,6 +543,7 @@ footer h1{
         width: 90%;
         margin: 5px 10px;
     }
-    .calculator-container{
+    form{
+        padding: 5px 10px;
     }
 }
