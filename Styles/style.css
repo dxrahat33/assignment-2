@@ -287,6 +287,13 @@ body{
 
 
 /* START CALCULATOR */
+.calculator-container{
+    background-color: #222222;
+}
+.calculator{
+    gap: 150px;
+    justify-content: center;
+}
 .calc-title{
     width: 100%;
     max-width: 671px;
@@ -294,6 +301,92 @@ body{
     flex-direction: column;
     gap: 14px;
 }
+.calc-left-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #FFF;
+}
+.calculator-left h2{
+    margin: 52px 0;
+}
+table{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 27px 15px 17px;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 27px 15px 17px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.calculator-right{
+    width: 35%;
+    margin-bottom: 52px;
+}
+.calc-right-descriptions{
+    margin-top: 49px;
+}
+.calc-right-descriptions p{
+    margin: 14px 0 34px;
+}
+/* FORM */
+form{
+    width: 100%;
+    max-width: 577px;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 13px 20px 13px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+#sex{
+    width: 49%;
+    color: rgba(255, 255, 255, 0.6);
+}
+#nationality{
+    width: 100%;
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+option{
+    font-size: 0.87rem;
+    color: #000;
+}
+#height-cm,
+#weight-kg,
+#age{
+    width: 49%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 13px 20px 13px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    border: none;
+}
+#submit{
+    width:49%;
+}
+/* FORM */
+
 /* END CALCULATOR */
 
 
@@ -420,5 +513,36 @@ footer h1{
     .calc-title{
         width: 90%;
         margin: 30px 20px;
+    }
+    .calculator{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .calculator-left h2{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-left: 15px;
+        margin-bottom: 23px;
+    }
+    .calculator-right{
+        width: 100%;
+
+    }
+    .calc-right-descriptions{
+        margin-left: 10px;
+    }
+    .calc-right-descriptions h2{
+        font-size: 1rem;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+    .calc-right-descriptions P{
+        margin: 0px;
+    }
+    table{
+        width: 90%;
+        margin: 5px 10px;
+    }
+    .calculator-container{
     }
 }
