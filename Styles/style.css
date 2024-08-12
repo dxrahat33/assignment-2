@@ -362,7 +362,7 @@ select{
     width: 49%;
     color: rgba(255, 255, 255, 0.6);
 }
-#nationality{
+#activity{
     width: 100%;
     margin-top: 12px;
     color: rgba(255, 255, 255, 0.6);
@@ -503,6 +503,7 @@ option{
     gap: 20px;
     margin-top: 39px;
     list-style: none;
+    white-space: nowrap;
 }
 .footer-link a{
     text-decoration: none;
@@ -686,8 +687,8 @@ option{
     .meet{
         padding: 0 20px;
     }
-    .meet h2{
-        font-size: 2.5rem;
+    .meet-head h2{
+        font-size: 2.3rem;
     }
     .meet-card{
         grid-template-columns: repeat(1, 1fr);
