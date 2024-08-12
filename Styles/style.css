@@ -391,6 +391,84 @@ option{
 
 
 
+/* START MEET OUR TEAM */
+.meet{
+    margin-top: 88px;
+}
+.meet-head{
+    width: 100%;
+    max-width: 671px;
+    margin: 0 auto;
+    padding: 0 30px;
+    align-items: center;
+    text-align: center;
+}
+.meet-head p{
+    margin: 14px 0 58px;
+}
+.meet-container{
+    width: 100%;
+    max-width: 1060px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    margin: 0 auto;
+}
+.meet-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    width: 100%;
+    max-width: 327px;
+    height: 272px;
+    flex-direction: column;
+    border-radius: 18px;
+    padding-left: 19px;
+    padding-bottom: 16px;
+    justify-content: flex-end;
+    text-align: left;
+}
+#card-1{
+    background-image: url(../images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+}
+#card-2{
+    background-image: url(../images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+}
+#card-3{
+    background-image: url(../images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+}
+#card-4{
+    background-image: url(../images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+}
+#card-5{
+    background-image: url(../images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+}
+#card-6{
+    background-image: url(../images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-h{
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #FFF;
+}
+/* END MEET OUR TEAM */
+
+
+
 
 
 
@@ -490,7 +568,7 @@ footer h1{
         margin: 60px 20px;
     }
     .run-content{
-        align-items: center;
+        align-items: left;
     }
     .run-content h2{
         font-size: 1.85rem;
@@ -506,9 +584,10 @@ footer h1{
     }
     .run-content button {
         width: 100%;
-        align-items: center;
+        align-items: left;
         white-space: nowrap ;
-        margin: 0 33px 31px;
+        margin: 0 auto;
+        margin-bottom: 31px;
     }
     .calc-title{
         width: 90%;
@@ -545,5 +624,8 @@ footer h1{
     }
     form{
         padding: 5px 10px;
+    }
+    .meet-card{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
