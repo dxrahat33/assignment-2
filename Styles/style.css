@@ -686,15 +686,30 @@ option{
     .meet{
         padding: 0 20px;
     }
-    .meet-card{
-        grid-template-columns: repeat(1, 1fr);
-    }
     .meet h2{
         font-size: 2.5rem;
+    }
+    .meet-card{
+        grid-template-columns: repeat(1, 1fr);
     }
     #card-1, #card-4{
         display: none;
     }
+    #card-2 {
+        grid-row: 1;
+      }
+    
+    #card-5 {
+        grid-row: 2;
+      }
+    
+    #card-3 {
+        grid-row: 3;
+      }
+    
+    #card-6 {
+        grid-row: 4;
+      }
     .footer{
         padding: 44px 20px 66px 20px;
     }
