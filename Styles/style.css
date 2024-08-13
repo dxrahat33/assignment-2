@@ -466,6 +466,23 @@ option{
 }
 /* END MEET OUR TEAM */
 
+/* START MEMBERSHIP PLANS */
+.plans{
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+.plans-content{
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+/* END MEMBERSHIP PLANS */
+
+
+
+
+
 /* START FOOTER CONTENT */
 .footer{
     width: 100%;
